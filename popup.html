@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOMeator</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 10px;
+                width: 200px;
+            }
+            input,
+            button {
+                width: 100%;
+                padding: 5px 2px;
+                margin-bottom: 10px;
+            }
+            button {
+                background-color: #db2e2e;
+                padding: 8px 0px;
+                border-radius: 2px;
+                color: white;
+                border: none;
+            }
+            .flex{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <h2>Input the id</h2>
+            <input type="text" id="input-field" value="" />
+            <button id="deleteButton">Delete Id</button>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
